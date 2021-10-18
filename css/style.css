@@ -1,0 +1,266 @@
+@font-face {
+  font-family: CocogooseLight;
+  src: url(../fonts/Cocogoose\ Pro\ Light-trial.ttf);
+}
+
+@font-face {
+  font-family: CocogooseThin;
+  src: url(../fonts/Cocogoose\ Pro\ Thin-trial.ttf);
+}
+
+@font-face {
+  font-family: CocogooseUltralight;
+  src: url(../fonts/Cocogoose\ Pro\ Ultralight-trial.ttf);
+}
+
+@font-face {
+  font-family: CocogooseBold;
+  src: url(../fonts/Cocogoose\ Pro-trial.ttf);
+}
+
+:root {
+  --primary-color: #272a31;
+  --secondary-color: #ec5242;
+  --secondary-transparent-color: #ec5342db;
+  --tertiary-color: #d3d3d3;
+  --white-color: #fff;
+  --third-color: rgb(6, 10, 255);
+  --primary-color-bg: #fff1;
+  --lato-font-family: 'Lato', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#activeNowHome {
+  color: var(--secondary-color);
+}
+
+#activeNowAbout {
+  color: var(--secondary-color);
+}
+
+#activeNowTickets {
+  color: var(--secondary-color);
+}
+
+.first-navbar,
+.first-navbar nav,
+.first-navbar div {
+  background-color: var(--primary-color);
+  font-family: var(--lato-font-family);
+}
+
+.first-navbar {
+  position: fixed;
+  z-index: 10;
+}
+
+.second-navbar {
+  background-color: var(--white-color);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.Navbar-button {
+  padding: 8px;
+  border: 5px var(--secondary-color) solid;
+  color: var(--secondary-color);
+  background-color: var(--white-color);
+}
+
+.hero-page {
+  background: linear-gradient(0deg, rgba(250, 250, 236, 0.85) 0%, rgba(255, 255, 255, 0.85) 102%, rgba(255, 255, 255, 0.97) 100%), url(../imgs/background-heropage.jpg);
+  width: 100%;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-section {
+  padding: 8px;
+  color: var(--secondary-color);
+}
+
+.main-section div {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.main-section h1 {
+  font-size: 30px;
+  font-family: CocogooseBold, sans-serif;
+  letter-spacing: 1.5px;
+  color: var(--secondary-transparent-color);
+}
+
+.main-section p {
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+.main-section h1::after {
+  content: ' 2021';
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+.about-page {
+  background-color: var(--primary-color);
+  background-image:
+    radial-gradient(#000 5%, transparent 5%),
+    radial-gradient(#000 5%, transparent 5%);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  padding: 64px 8px;
+}
+
+.about-page1 {
+  background-color: var(--primary-color);
+  background-size: 30px;
+  background-position: 0 0, 15px 15px;
+  padding: 64px 8px;
+}
+
+.about-section {
+  color: var(--tertiary-color);
+  text-align: center;
+}
+
+.about-line {
+  border-top: var(--secondary-color) 1px solid;
+  width: 15%;
+  max-width: 104px;
+  margin: 0 auto;
+}
+
+.about-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 8px;
+  border: var(--tertiary-color) 1px solid;
+  padding: 32px 16px;
+  max-width: 100%;
+  background-color: var(--primary-color-bg);
+}
+
+.about-item img {
+  background-color: var(--tertiary-color);
+  border-radius: 44px;
+  padding: 12px;
+}
+
+.about-item1 img {
+  padding: 12px;
+}
+
+.about-item h3 {
+  color: var(--secondary-color);
+  text-align: left;
+  margin: 16px;
+  margin-left: 16px;
+}
+
+.about-item p {
+  color: var(--tertiary-color);
+  font-weight: 600;
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 16px;
+}
+
+footer {
+  padding: 16px 0;
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+footer i:hover {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+}
+
+footer a {
+  color: var(--secondary-color);
+}
+
+.first-navbar a {
+  color: var(--tertiary-color);
+  font-family: var(--lato-font-family);
+}
+
+.second-navbar a {
+  color: var(--tertiary-color);
+  font-family: var(--lato-font-family);
+  font-weight: 600;
+  padding: 0;
+}
+
+a:hover {
+  opacity: 0.85;
+}
+
+footer a:hover {
+  color: var(--tertiary-color);
+  text-decoration: underline;
+}
+
+.about-main-section {
+  height: auto;
+}
+
+.about-main-section h1 {
+  font-family: CocogooseBold, sans-serif;
+  color: #ec5242;
+  font-size: 28px;
+}
+
+.about-main-section h1::after {
+  content: ' 2021';
+  font-family: sans-serif;
+  color: #ec5242;
+  font-weight: 900;
+}
+
+.fs-12 {
+  font-size: 14px;
+}
+
+.logo-border {
+  margin: 8px auto;
+  max-width: 350px;
+}
+
+.pastBootcamp-card1 {
+  min-height: 250px;
+  max-height: 320px;
+  background: linear-gradient(0deg, rgba(251, 58, 10, 0.65) 0%, rgba(248, 58, 11, 0.65) 102%, rgba(255, 152, 42, 0.97) 100%), url(../imgs/pastBootcamp1.jpg);
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: var(--tertiary-color);
+}
+
+.pastBootcamp-card2 {
+  min-height: 250px;
+  max-height: 320px;
+  background: linear-gradient(0deg, rgba(251, 58, 10, 0.65) 0%, rgba(248, 58, 11, 0.65) 102%, rgba(255, 152, 42, 0.97) 100%), url(../imgs/pastBootcamp2.jpg);
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: var(--tertiary-color);
+}
