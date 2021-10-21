@@ -100,7 +100,6 @@ button.campaign:hover {
   background-image: url(../img/bg-txt.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-background-clip: text;
   color: transparent;
 }
 
