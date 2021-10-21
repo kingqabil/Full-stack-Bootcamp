@@ -1,135 +1,235 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Courses</title>
-    <link rel="icon" href="img/compainesLogo.svg" type="image/svg+xml">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap');
-    </style>
-</head>
-<body>
-    <header>
-        <div class="container-fluid first-navbar">
-            <nav class="d-none d-md-block navbar-light">
-                <div class="container-lg d-flex flex-row-reverse">
-                  <a class="text-decoration-none ps-3" href="#">Logout</a>
-                  <a class="text-decoration-none ps-3" href="#">My Page</a>
-                  <a class="text-decoration-none ps-3" href="#">English</a>
-                  <a class="text-decoration-none ps-3" href="#"><i class='bx bxl-twitter'></i></a>
-                  <a class="text-decoration-none ps-3" href="#"><i class='bx bxl-facebook'></i></a>
-                </div>
-              </nav>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Music Festival</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script
+      src="https://kit.fontawesome.com/1ba545dca5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="position-relative">
+    <header class="pl-2 p-sm-0">
+      <nav class="row d-none d-md-block">
+        <div class="col-sm p-2 d-flex justify-content-end col-gap bg-dark pr-3">
+          <a href="#" rel="noopener" class="text-white"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="#" rel="noopener" class="text-white"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="#" rel="noopener" class="text-white">English</a>
+          <a href="#" rel="noopener" class="text-white">My Page</a>
+          <a href="#" rel="noopener" class="text-white">Logout</a>
         </div>
-        <nav class="navbar navbar-expand-md navbar-light second-navbar px-3 px-md-0">
-            <div class="container-md p-0">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt="companies-logo" height="86"></a>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0 d-block d-md-flex justify-content-end w-100">
-                  <li class="nav-item p-2">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item ps-md-4 p-2">
-                    <a class="nav-link" id="activeNowHome" aria-current="page" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item m-0 ps-md-4">
-                    <button class="Navbar-button" type="button">Enroll it</button>
-                  </li>
-                </ul>
+      </nav>
+      <nav class="row">
+        <div class="col-sm-1"></div>
+        <nav class="col-sm-10 navbar navbar-expand-md p-1">
+          <div>
+            <button
+              class="navbar-toggler border-0 font-weight-bold mt-4"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarTogglerMenu"
+              aria-controls="navbarTogglerMenu"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars h2 text-dark-50"></i>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse bg-white" id="navbarTogglerMenu">
+            <a
+              class="navbar-brand p-0 d-none d-md-block"
+              href="index.html"
+              rel="noopener"
+            >
+              <img src="img/logo.PNG" alt="Logo" />
+            </a>
+            <div class="navbar-nav mr-auto"></div>
+            <div class="form-inline my-2 my-lg-0 p-2 p-md-0 font-weight-bold">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="ml-4 nav-item">
+                  <a
+                    href="index.html"
+                    rel="noopener"
+                    class="nav-link text-black-50"
+                    >Home</a
+                  >
+                </li>
+                <li class="ml-4 ml-md-0 nav-item">
+                  <a href="about.html" rel="noopener" class="nav-link c-primary"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item ml-4">
+                  <button class="btn c-primary campaign">Educatia</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="col-sm-1"></div>
+      </nav>
+    </header>
+    <main class="container-fluid p-0">
+      <section class="section-presentation c-dark row px-2 px-sm-0 py-5">
+        <div class="col-sm-1"></div>
+        <div class="col-sm p-0 pt-md-5">
+          <div class="row d-none d-md-block mt-5">
+            <div class="col-12 d-flex justify-content-end align-items-center">
+              <i class="fas fa-home"></i>
+              <i class="fas fa-angle-right c-primary px-1"></i>
+              <a href="index.html" class="c-dark">Home</a>
+              <i class="fas fa-angle-right c-primary px-1"></i>
+              <a href="#" class="c-dark">About</a>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <h1 class="c-primary text-center col-12 col-md-11 pb-3 m-auto h2">
+              SOFTWARE DEVELOPMENT BOOTCAMP
+            </h1>
+            <div class="mt-5">
+              <p
+                class="col-12 col-md-10 p-4 details m-auto bg-white text-center"
+              >
+              Through lectures aimed at hands on practice and teaching the foundation of coding, The Full Stack Developer Boot camp is a course that will take you through various languages and work, building up the skills you need in order to be a developer. We focus on code and teach you how to use GIT so when you are done with our course you have multiple projects to show for it. We want you to have up to date skills and a portfolio of projects to show for it. This isn't a course driven by slides and instead puts the student in control, pushing them to code in every single lecture. We focus on html, css, JavaScript, and JavaScript libraries such as React.JS, Node.JS and MongoDB. Plus we cover Computer Science areas such as algorithms and Data Structures that will help you pass code interviews.
+              </p>
+              <p class="pt-4 text-center">
+                Please contact us with this Email any futher question about Educatia Bootcamp.
+                <span class="d-flex justify-content-center">
+                  <a
+                    href="mailto:mail@domain.com"
+                    class="font-weight-bold text-center d-block c-dark see-more"
+                  >
+                    info@eboot.com
+                  </a>
+                  <i class="fas fa-angle-right c-dark pl-1 align-self-end"></i>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+      </section>
+      <section
+        class="guests-section text-center c-dark p-2 p-sm-0 border-bottom"
+      >
+        <div class="row py-5">
+          <div class="col-sm-12 position-relative">
+            <h5 class="pb-2 head-title">
+              EDUCATIA SOFTWARE DEVELOPMENT BOOTCAMP 2022 Logo
+            </h5>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm">
+            <div class="row">
+              <p class="pt-5 text-center col-sm-8 m-auto">
+                This logo was selected to see how our Educatia Software Development Bootcamp. 2021 Edition.
+              </p>
+              <div class="col-sm-12">
+                <img src="img/logo1.PNG" alt="Logo" class="border p-2 mt-5" />
               </div>
             </div>
-          </nav>
-    </header>
-    <main>
-        <section>
-            <div class="container-fluid hero-page">
-                <div class="container-md">
-                  <div class="row pt-md-5">
-                    <div class="col-12 mt-5 pt-5 mt-md-0">
-                      <article class="mt-5 pt-4 about-main-section text-center">
-                        <h1 class="mt-2 py-2 w-md-75">ONLINE COURSES BOOTCAMP</h1>
-                        <div class="my-4 about-line"></div>
-                        <div class="border bg-white lh-md m-0 my-2 py-3 text-muted px-1 px-md-5">
-                          <p class="pt-1">
-                            The Online Courses Bootcamp is a high impact program to become a computer vision engineer, we want to make a great community to improve the technology areas for people from anywhere. <br>
-                          </p>
-                          <p class="d-none d-md-block">
-                            We provide you people who has the same interested as you, we have an awesome portfolio to help you to get your first job as a online course engineer, then you can access to our entire program and you are going to learn a lot about how this industry is growing each year.<br>
-                            If you are intested on our program, you can see more information in the link below, to know more about how our program can help you to access a global opportunities even if you don't life in high opportunities country. We want to help you to reach your goals.
-                          </p>
-
-                        </div>
-                        <h2 class="fs-12 fs-md-6 mt-4 text-muted lh-md px-4">Please contact us per Email for any further questions about Online Courses Bootcamp.</h2>
-                        <a href="#" class="pb-5 mb-5 d-block fw-bold text-muted">onlinecourse@onco.com ></a>
-                      </article>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </section>
+      <section
+        class="guests-section text-center c-dark p-2 p-sm-0 border-bottom"
+      >
+        <div class="row py-5">
+          <div class="col-sm-12 position-relative">
+            <h5 class="pb-2 head-title">
+              See our Graduates!
+            </h5>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm">
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <p class="pt-5 text-center col-sm-8 m-auto">
+                Take a look at the last two Educatia Software Development Graduates, in the beginning we gave this program offline.
+              </p>
+              <div class="col-sm-2"></div>
+              <div class="col-sm-1"></div>
+              <div class="col-sm-5 mt-1 mt-md-5 p-1 p-md-4">
+                <div class="img-past h-230 position-relative">
+                  <div class="past">
+                    <div class="past-detail position-absolute text-white">
+                      <h2 class="font-weight-bold">2019</h2>
+                      <p>Educatia Software Development Bootcamp Cd. Addis Ababa</p>
                     </div>
                   </div>
                 </div>
-            </div>
-        </section>
-        <section>
-          <div class="container-md">
-            <div class="row">
-              <div class="col-12 my-5 text-center d-block">
-                <div>
-                  <h4>Online Courses Companie's logo</h4>
-                  <div class="my-4 about-line"></div>
-                  <p>This logo was selected to see how our Online Courses Bootcamp 2021 edition.</p>
-                </div>
-                <div class="border logo-border">
-                  <img src="imgs/logo.png" alt="companies-logo" width="220" >
-                </div>
               </div>
-            </div>
-          </div>
-        </section>
-       <section>
-          <div class="container-md border-top">
-            <div class="row">
-              <div class="col-12 my-5 text-center d-block p-3">
-                <div>
-                  <h4>See the past Online Courses Bootcamp</h4>
-                  <div class="my-4 about-line"></div>
-                  <p>Take a look at the last two Online Courses Bootcamps, in the beginning we gave this program offline.</p>
-                </div>
-                <div class="d-block d-md-flex p-3">
-                  <div class="col-12 col-md-6 pastBootcamp-card1 me-md-3 my-3 d-flex flex-column justify-content-center">
-                    <h6 class="fw-bold fs-1">2019</h6>
-                    <p class="fs-5">Online Courses Bootcamp in México</p>
-                  </div>
-                  <div class="col-12 col-md-6 pastBootcamp-card2 ms-md-3 my-3 d-flex flex-column justify-content-center">
-                    <h6 class="fw-bold fs-1">2020</h6>
-                    <p class="fs-5">Online Courses Bootcamp in Somalia</p>
+              <div class="col-sm-5 mt-1 mt-md-5 p-1 p-md-4">
+                <div class="img-past2 h-230 position-relative">
+                  <div class="past">
+                    <div class="past-detail position-absolute text-white">
+                      <h2 class="font-weight-bold">2020</h2>
+                      <p>Educatia Software Development Bootcamp Cd. Nairobi</p>
+                    </div>
                   </div>
                 </div>
               </div>
+              <div class="col-sm-1"></div>
             </div>
           </div>
-        </section>
+          <div class="col-sm-1"></div>
+        </div>
+      </section>
     </main>
-    <footer>
-        <div class="container-md">
-          <div class="row mt-3">
-          </div>
-          <div class="row text-center my-3">
-            <p>Copyright &copy; 2021 ONLINE COURSES - Final Capstone Module HTML/CSS</p>
-          </div>
-          <div class="row border my-3 py-2 px-0 d-md-flex">
-            <div class="text-center">Design idea by <a class="text-decoration-none" href="https://www.behance.net/adagio07">Cindy Shin | GUI & Graphic Designer</a> </div>
+    <footer class="py">
+      <div class="row py-5">
+        <div class="col-sm-1"></div>
+        <div class="col-sm">
+          <div class="row">
+            <div
+              class="col-12 col-sm-4 d-flex col-gap align-items-center justify-content-center justify-content-sm-left"
+            >
+              <i class="far fa-closed-captioning"></i>
+              <h2 class="font-weight-bold h2">
+                Educatia <br />
+                Bootcamp
+              </h2>
+            </div>
+            <div
+              class="col-12 col-sm pl-0 pl-sm-4 d-flex flex-column text-center text-sm-left"
+            >
+              <p class="mb-2">2020, Educatia Software Development Bootcamp</p>
+              <p class="d-none d-sm-block">
+                Design idea by Cindy Shin | GUI & Graphic Designer
+              </p>
+            </div>
           </div>
         </div>
-      </footer>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-</body>
+        <div class="col-sm-1"></div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

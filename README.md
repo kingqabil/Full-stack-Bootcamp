@@ -1,14 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Online Course (Software Development) Website
+# Educatia Software Development Website
 
 > This project is the final capstone for the first module (HTML - CSS).
 
 The next website is about a Online Bootcamp about Software Development, it's just an instance according to the website to sell a Software Development.
 For this project, I've used HTML, CSS, and Bootstrap to the entire website, also I've included GRID and flexbox to make more professional distribution of elements inside specific parts of the website.
 
+## Desktop 💻
+<img src="img/desktop.png" alt="DesktopLayout" width="100%">
+
 ## Mobile 📱
-<img src="imgs/mobile.png" alt="DesktopLayout" width="50%">
+<img src="img/mobile.png" alt="DesktopLayout" width="50%">
 
 
 ## Built With 🔨
@@ -22,7 +25,6 @@ For this project, I've used HTML, CSS, and Bootstrap to the entire website, also
 ## Live Demo 👀
 
 - [Live Demo Link](https://kingqabil.github.io/Capstone-1/)
-- [Live Demo 2](https://deploy-preview-10--sharp-joliot-d10f38.netlify.app/?utm_source=github&utm_campaign=bot_dp)
 
 ### Install
 
