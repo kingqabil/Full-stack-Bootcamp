@@ -26,9 +26,9 @@ For this project, I've used HTML, CSS, and Bootstrap to the entire website, also
 
 - [Live Demo Link](https://kingqabil.github.io/Capstone-1/)
 
-## Vedio Demo 👀
+## Video Demo 👀
 
-- [Vedio Demo Link](https://www.loom.com/share/d57302379eff43f7bb1bb3b97d5c1100)
+- [Video Demo Link](https://www.loom.com/share/6010e67d02d34cbe8978ff645f7f9128)
 
 ### Install
 
