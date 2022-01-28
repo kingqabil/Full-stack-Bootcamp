@@ -24,7 +24,7 @@ For this project, I've used HTML, CSS, and Bootstrap to the entire website, also
 
 ## Live Demo 👀
 
-- [Live Demo Link](https://kingqabil.github.io/Capstone-1/)
+- [Live Demo Link](https://kingqabil.github.io/Full-stack-Bootcamp/)
 
 ## Video Demo 👀
 
